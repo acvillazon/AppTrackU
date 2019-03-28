@@ -1,0 +1,20 @@
+Adriana Rugeles
+Andres Villazon
+
+Funcionalidades.
+- Registro Usuario de cara al Web services, dado que sea exitoso, se guarda en almacenamiento local.
+
+- Autenticación Web Services, si este falla, se recurre a autenticación local.
+
+- Envio de ubicaciones GPS al Web Service, estas ubicaciones solo se guardaran en almacenamiento local si el 
+almacenamiento en Web service falla.
+
+- Si se recupera conexion con el Web Services y se tienen localizaciones almacenadas localmente, estas se re-enviaran al Web Service y posteriormente se eliminaran del almacenamiento local. (SINCRONIZACIÓN)
+
+- La aplicación muestra la ultima ubicacion de usuarios registrados, de un color verde aquellos que esten activos y rojo los que no. (Tiene un boton de refresh con el fin de actualizar la ultima ubicación).
+
+- La aplicación permite el acceso al historico de posiciones de otros usuarios, entre dos fechas/hora
+
+- Al dar clic sobre el marcador de cada usuario en el mapa se mostrara un Dialog que mostrara el username y la fecha correspondiente.
+
+- Mnejo de excepciones en caso errores.
